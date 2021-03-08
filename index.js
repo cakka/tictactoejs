@@ -100,6 +100,7 @@ function cellClickHandler(event) {
 
 // Restart game state
 function restartGame() {
+    activeGame = true;
     currentPlayer = "X";
     gameState = ["", "", "", "", "", "", "", "", ""];
     turnPlayer();
